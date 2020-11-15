@@ -1,0 +1,33 @@
+#######################
+#INITIAL_CONFIGURATION#
+#######################
+#Initial_config_flag#         0            #wd#
+#Random_seed#                 123456       #wd#
+
+#####################
+#MATERIAL_PARAMETERS#
+#####################
+#diffusion_coefficient#       19.8          #nm2/sec#
+#capillary_length#            0.0           #nm#
+#precipitate_conc#            0.25          #atomic_frac#
+#equilibrium_matrix_conc#     0.00013       #atomic_frac#
+#initial_matrix_conc#         0.001         #atomic_frac#
+
+######################
+#NUMERICAL_PARAMETERS#
+######################
+#Simulation_dimensions#       128. 128. 128.       #nm#
+#Discretization#              128  128  128        #grid_points# 
+#Number_Time_steps#           1000                #steps#    
+#timestep#                    0.1                 #wd#
+#N_output_files#              1                   #files#
+#Write_infos_every#           100                  #steps#
+
+##################
+#PPT_DISTRIBUTION#
+##################
+#Nppts#                       1               #ppts# 
+#Distribution_name#           Single          #wd#
+#Rinit_1_2#                   2    0        #nm#
+#ppts_type#                   0             #0:Sphere, 1: cylider, 2:sphere#
+#ppts_shape_factor#           0.25          #nu coef#
